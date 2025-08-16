@@ -9,11 +9,11 @@
     "moduleResolution": "bundler",
     "jsx": "preserve",
     "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    },
+   "paths": {
+  "@/*": ["./src/*"],
+  "@/src/*": ["./src/*"]
+}
+,
     "strict": true,
     "noEmit": true
   }
