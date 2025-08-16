@@ -17,6 +17,8 @@ model Tenant {
   featureFlags FeatureFlag[]
   people       Person[]
   shifts       ShiftInstance[]
+assignments Assignment[]
+
 }
 
 model User {
